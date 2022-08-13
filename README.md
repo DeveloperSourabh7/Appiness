@@ -41,6 +41,8 @@ The separate code layers of MVVM are:
     3. ViewModel: It exposes those data streams which are relevant to the View. Moreover, it servers as a link between the Model and the View.
 
 The Appiness Android app follows the [official architecture guidance](https://developer.android.com/topic/architecture) and is described in detail in the [architecture learning journey](https://github.com/android/nowinandroid/blob/main/docs/ArchitectureLearningJourney.md).
+![Screenshot 2022-08-14 014635](https://user-images.githubusercontent.com/41104353/184510895-eba086a9-872e-4f80-a6f7-9ab19a6f034e.png)
+
 ## UI
 
 UI components are designed according to [Material 3](https://m3.material.io/) guidelines and built in XML layouts.
