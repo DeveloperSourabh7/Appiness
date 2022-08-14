@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_vaccine_center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="20dp"
+            android:text="Name"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".60"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/mtv_post"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:text="Post"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mtv_name"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".60" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mtv_call"
+                style="@style/Vaccine_Center_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="20dp"
+                app:icon="@drawable/ic_baseline_call_24"
+                app:iconPadding="5dp"
+                app:iconSize="30dp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintStart_toEndOf="@id/mtv_name"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".20"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mtv_message"
+                style="@style/Vaccine_Center_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                app:icon="@drawable/ic_baseline_message_24"
+                app:iconPadding="5dp"
+                android:layout_marginTop="20dp"
+                app:iconSize="30dp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintStart_toEndOf="@id/mtv_call"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".60" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
