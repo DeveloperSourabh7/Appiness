@@ -19,7 +19,7 @@ This is the repository for the Android Assignment Task provided by Appiness Inte
 
 ## Screenshots
 
-Any additional information goes here
+![abc](https://user-images.githubusercontent.com/41104353/184539494-d97fb198-3b9b-4284-9a7e-5bd3cb0da62e.png)
 
 
 ## Development Environment
